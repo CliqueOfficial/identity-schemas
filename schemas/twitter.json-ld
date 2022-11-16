@@ -1,0 +1,27 @@
+{
+  "@context": [{
+    "@version": 1.0,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "Twitter": {
+      "@id": "https://link-to-ipfs-schema",
+      "@context": {
+        "@version": 1.0,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "auth-vocab": "https://link-to-markdown-data",
+        "serialization": "https://link-to-markdown-serialization",
+        "TwitterFollowers": {
+          "@id": "auth-vocab:TwitterFollowers",
+          "@type": "serialization:IndexDataSlotA"
+        },
+        "TwitterLikes": {
+          "@id": "auth-vocab:TwitterLikes",
+          "@type": "serialization:IndexDataSlotB"
+        }
+      }
+    }
+  }]
+}
