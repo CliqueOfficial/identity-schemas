@@ -3,7 +3,7 @@
 The hash of the claim schema
 
 ```
-  "claimSchemaHash": #######
+  "claimSchemaHash": integer
 ```
 
 ## ID
@@ -11,53 +11,53 @@ The hash of the claim schema
 The ID of the claim holder.
 
 ```
-  "id": ##########
+  "id": integer
 ```
 
-## numFollowersTwitter
+## followers
 
-Number of followers on Twitter.
-
-```
-  "numFollowersTwitter": 1000
-```
-
-## sumLikesTwitter
-
-Total number of likes on all tweets on Twitter.
+Number of followers on Github.
 
 ```
-  "sumLikesTwitter": 20000
+  "followers": integer
 ```
 
-## sumRetweetsTwitter
+## stars
 
-Total number of retweets on all tweets on Twitter.
-
-```
-  "sumRetweetsTwitter": 1500
-```
-
-## sumCommentsTwitter
-
-Total number of comments on all tweets on Twitter.
+Total number of users' public github stars.
 
 ```
-  "sumCommentsTwitter": 1000
+  "stars": integer
 ```
 
-## isFollowingTwitter
+## commits
 
-Boolean value indicating whether the user is following Twitter.
-
-```
-  "isFollowingTwitter": true
-```
-
-## timeCreatedTwitter
-
-Date and time that the Twitter account was created, in [ISO 8601] format.
+Total number of users' public commits.
 
 ```
-  "timeCreatedTwitter": "2022-05-01T12:00:00Z"
+  "sumRetweetsTwitter": integer
+```
+
+## prs
+
+Total number of users' public pull requests.
+
+```
+  "prs": integer
+```
+
+## contributions
+
+Total number of users' public contributions.
+
+```
+  "contributions": integer
+```
+
+## issues
+
+Total number of users' public issues resolved.
+
+```
+  "issues": integer
 ```
