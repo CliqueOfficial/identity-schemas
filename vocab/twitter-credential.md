@@ -1,49 +1,49 @@
-## ClaimSchemaHash
+## claim-schema-hash
 
 The hash of the claim schema
 
 ```
-  "claimSchemaHash": #######
+  "claim-schema-hash": integer
 ```
 
-## ID
+## owner-id
 
 The ID of the claim holder.
 
 ```
-  "id": ##########
+  "owner-id": integer
 ```
 
-## numFollowersTwitter
+## followers
 
 Number of followers on Twitter.
 
 ```
-  "numFollowersTwitter": 1000
+  "followers": integer
 ```
 
-## sumLikesTwitter
+## likes
 
 Total number of likes on all tweets on Twitter.
 
 ```
-  "sumLikesTwitter": 20000
+  "likes": integer
 ```
 
-## sumRetweetsTwitter
+## retweets
 
 Total number of retweets on all tweets on Twitter.
 
 ```
-  "sumRetweetsTwitter": 1500
+  "retweets": integer
 ```
 
-## sumCommentsTwitter
+## comments
 
 Total number of comments on all tweets on Twitter.
 
 ```
-  "sumCommentsTwitter": 1000
+  "comments": integer
 ```
 
 ## isFollowingTwitter
@@ -51,13 +51,13 @@ Total number of comments on all tweets on Twitter.
 Boolean value indicating whether the user is following Twitter.
 
 ```
-  "isFollowingTwitter": true
+  "isFollowingTwitter": integer
 ```
 
-## timeCreatedTwitter
+## time-created-twitter
 
 Date and time that the Twitter account was created, in [ISO 8601] format.
 
 ```
-  "timeCreatedTwitter": "2022-05-01T12:00:00Z"
+  "time-created-twitter": integer
 ```
