@@ -6,4 +6,7 @@ Schemas are described via JSON-LD documents.
 
 The repository contains schemas of the claims issued by Clique:
 
-[TwitterCredential](https://schema.example.com/credentials/twitter-credential.jsonld)
+- [Github-Credential](https://raw.githubusercontent.com/CliqueOfficial/identity-schemas/main/json-ld/github-credential.json-ld)
+- [Twitter-Credential](https://raw.githubusercontent.com/CliqueOfficial/identity-schemas/main/json-ld/twitter-credential.json-ld)
+
+
