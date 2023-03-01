@@ -46,12 +46,12 @@ Total number of comments on all tweets on Twitter.
   "comments": integer
 ```
 
-## isFollowingTwitter
+## following-twitter
 
 Boolean value indicating whether the user is following Twitter.
 
 ```
-  "isFollowingTwitter": integer
+  "following-twitter": integer
 ```
 
 ## time-created-twitter
