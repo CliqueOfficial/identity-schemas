@@ -1,17 +1,17 @@
-## ClaimSchemaHash
+## claim-schema-hash
 
 The hash of the claim schema
 
 ```
-  "claimSchemaHash": integer
+  "claim-schema-hash": integer
 ```
 
-## ID
+## owner-id
 
 The ID of the claim holder.
 
 ```
-  "id": integer
+  "owner-id": integer
 ```
 
 ## followers
@@ -35,7 +35,7 @@ Total number of users' public github stars.
 Total number of users' public commits.
 
 ```
-  "sumRetweetsTwitter": integer
+  "commits": integer
 ```
 
 ## prs
